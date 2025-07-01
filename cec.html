@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Traditional Trails - A Cultural Journey</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Playfair Display', serif;
+      background-color: #f8f2e4;
+      margin: 0;
+      padding: 0;
+      color: #3d2e1e;
+    }
+
+    header {
+      background-color: #e8dcc2;
+      padding: 15px 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 2px solid #d5c6aa;
+    }
+
+    .logo {
+      display: flex;
+      align-items: center;
+    }
+
+    .logo-circle {
+      width: 24px;
+      height: 24px;
+      background-color: #00332f;
+      border-radius: 50%;
+      margin-right: 10px;
+    }
+
+    nav a {
+      margin: 0 15px;
+      text-decoration: none;
+      color: #3d2e1e;
+      font-weight: bold;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 60px 20px 30px;
+      background-image: url('https://www.transparenttextures.com/patterns/white-paper.png');
+    }
+
+    .hero h1 {
+      font-size: 3rem;
+      margin: 20px 0 10px;
+    }
+
+    .hero h2 {
+      font-size: 1.2rem;
+      font-weight: normal;
+      margin-bottom: 30px;
+    }
+
+    .hero img {
+      max-width: 150px;
+    }
+
+    .hero-buttons a {
+      display: inline-block;
+      padding: 12px 20px;
+      margin: 10px;
+      text-decoration: none;
+      border-radius: 5px;
+      font-weight: bold;
+      box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+    }
+
+    .btn-blue {
+      background-color: #0c4b4f;
+      color: #fff;
+    }
+
+    .btn-brown {
+      background-color: #4b2e1c;
+      color: #fff;
+    }
+
+    section {
+      padding: 50px 40px;
+    }
+
+    .section-title {
+      text-align: center;
+      font-size: 2rem;
+      margin-bottom: 10px;
+    }
+
+    .section-subtitle {
+      text-align: center;
+      font-size: 1rem;
+      margin-bottom: 30px;
+      color: #6e5b45;
+    }
+
+    .card-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 25px;
+    }
+
+    .card {
+      background-color: #fff;
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+      transition: transform 0.3s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+    }
+
+    .card img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+    }
+
+    .card-text {
+      padding: 15px;
+    }
+
+    .card-text p {
+      margin: 0 0 10px;
+    }
+
+    .card-text a {
+      color: #b7892c;
+      text-decoration: none;
+      font-weight: bold;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <div class="logo">
+      <div class="logo-circle"></div>
+      <h2>Traditional Trails</h2>
+    </div>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="explore.html">Explore States</a>
+      <a href="festivals.html">Festivals</a>
+      <a href="famous-foods.html">Famous-Foods</a>
+      <a href="about.html">About</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <img src="c:\Users\dhruv\OneDrive\Desktop\tradition trails.jpg" alt="Traditional Trails Logo">
+    <h1>ONE NATION. <br>INFINITE CULTURES.</h1>
+    <h2>Travel India Through Its Traditions</h2>
+    <div class="hero-buttons">
+      <a href="explore.html" class="btn-blue">Explore States</a>
+      <a href="festivals.html" class="btn-brown">Discover Festivals</a>
+    </div>
+  </section>
+
+  <section>
+    <h2 class="section-title">FEATURED CULTURAL DESTINATIONS</h2>
+    <p class="section-subtitle">Discover the unique cultural identities of these Indian states</p>
+
+    <div class="card-container">
+        <!-- Kerala -->
+        <div class="card">
+          <img src="c:\Users\dhruv\OneDrive\Pictures\Screenshots\Screenshot 2025-04-11 140050.png" alt="Kerala">
+          <div class="card-text">
+            <p><b>KERALA</b> for backwaters, Kathakali dance, and spicy cuisine.</p>
+            <a href="kerala.html">Explore →</a>
+          </div>
+        </div>
+      
+        <!-- Rajasthan -->
+        <div class="card">
+          <img src="c:\Users\dhruv\OneDrive\Pictures\Screenshots\rajasthan.png" alt="Rajasthan">
+          <div class="card-text">
+            <p><b>RAJASTHAN</b> Famous for its royal heritage, forts, and colorful festivals.</p>
+            <a href="rajasthan.html">Explore →</a>
+          </div>
+        </div>
+      
+        <!-- West Bengal -->
+        <div class="card">
+          <img src="c:\Users\dhruv\OneDrive\Pictures\Screenshots\kolkata.png" alt="West Bengal">
+          <div class="card-text">
+            <p><b>WEST BENGAL</b> Home to Durga Puja, Rabindra Sangeet, and Bengali sweets.</p>
+            <a href="west-bengal.html">Explore →</a>
+          </div>
+        </div>
+      
+        <!-- Gujarat -->
+        <div class="card">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTls8F1Jifhwpw5n8_wUqcsUbGKoa-qrQhM-w&s" alt="Gujarat">
+          <div class="card-text">
+            <p><b>GUJARAT</b> Known for Garba dance, textiles, and vegetarian cuisine.</p>
+            <a href="gujarat.html">Explore →</a>
+          </div>
+        </div>
+      
+        <!-- Assam -->
+        <div class="card">
+          <img src="c:\Users\dhruv\OneDrive\Pictures\Screenshots\Screenshot 2025-04-11 134315.png" alt="Assam">
+          <div class="card-text">
+            <p><b>ASSAM</b> Known for Bihu festival, tea gardens, and rich biodiversity.</p>
+            <a href="aasam.html">Explore →</a>
+          </div>
+        </div>
+      
+        <!-- Jammu & Kashmir -->
+        <div class="card">
+          <img src="c:\Users\dhruv\OneDrive\Pictures\Screenshots\Screenshot 2025-04-11 134533.png" alt="Jammu and Kashmir">
+          <div class="card-text">
+            <p><b>JAMMU & KASHMIR</b> A paradise with Himalayan beauty, saffron fields, and Kahwa tea.</p>
+            <a href="jammu-kashmir.html">Explore →</a>
+          </div>
+        </div>
+      
+        <!-- Maharashtra -->
+        <div class="card">
+          <img src="c:\Users\dhruv\OneDrive\Desktop\maharashtra.jpg" alt="Maharashtra">
+          <div class="card-text">
+            <p><b>MAHARASHTRA</b> City of Mumbai, Ganesh Chaturthi, and diverse street food.</p>
+            <a href="maharashtra.html">Explore →</a>
+          </div>
+        </div>
+      
+        <!-- Bihar -->
+        <div class="card">
+          <img src="c:\Users\dhruv\OneDrive\Pictures\Screenshots\Screenshot 2025-04-11 135225.png" alt="Bihar">
+          <div class="card-text">
+            <p><b>BIHAR</b> Birthplace of Buddhism and home to Chhath Puja and Litti Chokha.</p>
+            <a href="bihar.html">Explore →</a>
+          </div>
+        </div>
+        <!-- UTTRAKHAND -->
+        <div class="card">
+          <img src="c:\Users\dhruv\OneDrive\Pictures\Screenshots\Screenshot 2025-04-11 135411.png" alt="Uttarakhand">
+          <div class="card-text">
+            <p><b>UTTARAKHAND</b> Land of gods, famous for Char Dham Yatra and scenic mountains.</p>
+            <a href="uttarakhand.html">Explore →</a>
+          </div>
+        </div>
+        <!-- SIKKIM -->
+        <div class="card">
+          <img src="c:\Users\dhruv\OneDrive\Pictures\Screenshots\Screenshot 2025-04-11 135502.png" alt="Sikkim">
+          <div class="card-text">
+            <p><b>SIKKIM</b> A Himalayan paradise known for monasteries, natural beauty, and vibrant festivals.</p>
+            <a href="sikkim.html">Explore →</a>
+          </div>
+        </div>
+        <!-- MP -->
+        <div class="card">
+          <img src="C:\Users\dhruv\OneDrive\Pictures\Screenshots\Screenshot 2025-04-11 135831.png" alt="Madhya Pradesh">
+          <div class="card-text">
+            <p><b>MADHYA PRADESH</b> Known as the 'Heart of India' with ancient temples, forts, and tribal culture.</p>
+            <a href="madhya-pradesh.html">Explore →</a>
+          </div>
+        </div>
+        <!-- Odisha -->
+        <div class="card">
+          <img src="c:\Users\dhruv\OneDrive\Pictures\Screenshots\Screenshot 2025-04-11 135654.png" alt="Odisha">
+          <div class="card-text">
+            <p><b>ODISHA</b> Known for Jagannath Puri, classical Odissi dance, and intricate temple architecture.</p>
+            <a href="ODISHA.html">Explore →</a>
+          </div>
+        </div>
+        <!-- Karnataka -->
+         <div class="card">
+          <img src="c:\Users\dhruv\OneDrive\Pictures\Screenshots\karnataka.png" alt="Karnataka">
+          <div class="card-text">
+          <p><b>KARNATAKA</b> Known for historical Hampi, classical Carnatic music, and rich traditions.</p>
+          <a href="karnataka.html">Explore →</a>
+        </div>
+</div>
+
+<!-- Tamil Nadu -->
+<div class="card">
+  <img src="c:\Users\dhruv\OneDrive\Pictures\Screenshots\tamilnadu.png" alt="Tamil Nadu">
+  <div class="card-text">
+    <p><b>TAMIL NADU</b> Famous for Dravidian temples, Bharatanatyam dance, and Pongal festival.</p>
+    <a href="tamil-nadu.html">Explore →</a>
+  </div>
+</div>
+
+<!-- Andhra Pradesh -->
+<div class="card">
+  <img src="c:\Users\dhruv\OneDrive\Pictures\Screenshots\andhrapradesh.png" alt="Andhra Pradesh">
+  <div class="card-text">
+    <p><b>ANDHRA PRADESH</b> Known for Kuchipudi dance, spicy cuisine, and Tirupati temple.</p>
+    <a href="andhra-pradesh.html">Explore →</a>
+  </div>
+</div>
+
+<!-- Himachal Pradesh -->
+<div class="card">
+  <img src="c:\Users\dhruv\OneDrive\Pictures\Screenshots\himachal.png" alt="Himachal Pradesh">
+  <div class="card-text">
+    <p><b>HIMACHAL PRADESH</b> A land of hill stations, apples, and serene Himalayan culture.</p>
+    <a href="himachal-pradesh.html">Explore →</a>
+  </div>
+</div>
+
+<!-- Punjab -->
+<div class="card">
+  <img src="c:\Users\dhruv\OneDrive\Pictures\Screenshots\punjab.png" alt="Punjab">
+  <div class="card-text">
+    <p><b>PUNJAB</b> Known for Bhangra dance, Golden Temple, and vibrant Punjabi cuisine.</p>
+    <a href="punjab.html">Explore →</a>
+  </div>
+</div>
+<!-- Goa -->
+<div class="card">
+  <img src="c:\Users\dhruv\OneDrive\Pictures\Screenshots\goa.png" alt="Goa">
+  <div class="card-text">
+    <p><b>GOA</b> Renowned for beaches, Portuguese heritage, and vibrant nightlife.</p>
+    <a href="goa.html">Explore →</a>
+  </div>
+</div>
+
+<!-- Telangana -->
+<div class="card">
+  <img src="https://images.app.goo.gl/82SKHH8sA4XAWNcq7" alt="Telangana">
+  <div class="card-text">
+    <p><b>TELANGANA</b> Famous for Charminar, biryani, and cultural richness of Hyderabad.</p>
+    <a href="telangana.html">Explore →</a>
+  </div>
+</div>
+
+<!-- Manipur -->
+<div class="card">
+  <img src="https://images.app.goo.gl/82SKHH8sA4XAWNcq7" alt="Manipur">
+  <div class="card-text">
+    <p><b>MANIPUR</b> Land of classical Manipuri dance, Loktak Lake, and rich tribal culture.</p>
+    <a href="manipur.html">Explore →</a>
+  </div>
+</div>
+
+<!-- Tripura -->
+<div class="card">
+  <img src="https://images.app.goo.gl/Skmue5mtbtkrD3uM7" alt="Tripura">
+  <div class="card-text">
+    <p><b>TRIPURA</b> Known for ancient temples, bamboo crafts, and lush landscapes.</p>
+    <a href="tripura.html">Explore →</a>
+  </div>
+</div>
+
+<!-- Meghalaya -->
+<div class="card">
+  <img src="c:\Users\dhruv\OneDrive\Pictures\Screenshots\meghalaya.png" alt="Meghalaya">
+  <div class="card-text">
+    <p><b>MEGHALAYA</b> Famous for Cherrapunji rains, living root bridges, and Khasi culture.</p>
+    <a href="meghalaya.html">Explore →</a>
+  </div>
+</div>
+
+<!-- Mizoram -->
+<div class="card">
+  <img src="https://images.app.goo.gl/quprByPrzaWgeg6r9" alt="Mizoram">
+  <div class="card-text">
+    <p><b>MIZORAM</b> Known for rolling hills, bamboo dance, and vibrant tribal traditions.</p>
+    <a href="mizoram.html">Explore →</a>
+  </div>
+</div>
+
+<!-- Arunachal Pradesh -->
+<div class="card">
+  <img src="https://images.app.goo.gl/tY3iHeDjVbMVNsGp8" alt="Arunachal Pradesh">
+  <div class="card-text">
+    <p><b>ARUNACHAL PRADESH</b> Land of dawn-lit mountains and tribal heritage.</p>
+    <a href="arunachal-pradesh.html">Explore →</a>
+  </div>
+</div>
+
+<!-- Nagaland -->
+<div class="card">
+  <img src="c:\Users\dhruv\OneDrive\Pictures\Screenshots\nagaland.png" alt="Nagaland">
+  <div class="card-text">
+    <p><b>NAGALAND</b> Home to the Hornbill Festival and unique Naga tribes.</p>
+    <a href="nagaland.html">Explore →</a>
+  </div>
+</div>
+<!-- Delhi -->
+<div class="card">
+  <img src="c:\Users\dhruv\OneDrive\Pictures\Screenshots\delhi.png" alt="Delhi">
+  <div class="card-text">
+    <p><b>DELHI</b> Capital of India, rich in history, monuments, and street food.</p>
+    <a href="delhi.html">Explore →</a>
+  </div>
+</div>
+
+<!-- Chandigarh -->
+<div class="card">
+  <img src="c:\Users\dhruv\OneDrive\Pictures\Screenshots\chandigarh.png" alt="Chandigarh">
+  <div class="card-text">
+    <p><b>CHANDIGARH</b> India’s first planned city, known for modern architecture and gardens.</p>
+    <a href="chandigarh.html">Explore →</a>
+  </div>
+</div>
+
+<!-- Puducherry -->
+<div class="card">
+  <img src="c:\Users\dhruv\OneDrive\Pictures\Screenshots\puducherry.png" alt="Puducherry">
+  <div class="card-text">
+    <p><b>PUDUCHERRY</b> A coastal UT with French influence, beaches, and Auroville.</p>
+    <a href="puducherry.html">Explore →</a>
+  </div>
+</div>
+
+<!-- Andaman & Nicobar -->
+<div class="card">
+  <img src="c:\Users\dhruv\OneDrive\Pictures\Screenshots\andaman.png" alt="Andaman and Nicobar Islands">
+  <div class="card-text">
+    <p><b>ANDAMAN & NICOBAR</b> Tropical paradise with coral reefs, beaches, and history.</p>
+    <a href="andaman-nicobar.html">Explore →</a>
+  </div>
+</div>
+
+<!-- Lakshadweep -->
+<div class="card">
+  <img src="c:\Users\dhruv\OneDrive\Pictures\Screenshots\lakshadweep.png" alt="Lakshadweep">
+  <div class="card-text">
+    <p><b>LAKSHADWEEP</b> Archipelago known for lagoons, marine life, and serene beaches.</p>
+    <a href="lakshadweep.html">Explore →</a>
+  </div>
+</div>
+
+<!-- Dadra & Nagar Haveli and Daman & Diu -->
+<div class="card">
+  <img src="c:\Users\dhruv\OneDrive\Pictures\Screenshots\daman-diu.png" alt="Dadra and Nagar Haveli and Daman and Diu">
+  <div class="card-text">
+    <p><b>DADRA & NAGAR HAVELI AND DAMAN & DIU</b> Blend of Portuguese charm and scenic coasts.</p>
+    <a href="dnh-dd.html">Explore →</a>
+  </div>
+</div>
+
+<!-- Ladakh -->
+<div class="card">
+  <img src="https://imgcld.yatra.com/ytimages/image/upload/v1517480778/AdvNation/ANN_DES95/ann_top_Ladakh_buV00Q.jpg" alt="Ladakh">
+  <div class="card-text">
+    <p><b>LADAKH</b> Cold desert of monasteries, Buddhist culture, and high-altitude beauty.</p>
+    <a href="ladakh.html">Explore →</a>
+  </div>
+</div>
+
+            
+    </div>
+  </section>
+</body>
+</html>

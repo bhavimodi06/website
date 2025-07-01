@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Discover Festivals - Traditional Trails</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Playfair Display', serif;
+      background-color: #fffaf5;
+      color: #3c2f2f;
+    }
+
+    header {
+      background-color: #fff6e6;
+      padding: 1rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 1px solid #ddd;
+    }
+
+    nav a {
+      margin: 0 1rem;
+      text-decoration: none;
+      color: #5a3e1b;
+      font-weight: 600;
+    }
+
+    .title {
+      text-align: center;
+      margin: 2rem 0;
+      font-size: 2.5rem;
+      color: #5a3e1b;
+    }
+
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1.5rem;
+      padding: 0 2rem;
+    }
+
+    .card {
+      border-radius: 16px;
+      overflow: hidden;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      background-color: white;
+      text-align: center;
+      transition: transform 0.3s ease;
+    }
+
+    .card:hover {
+      transform: scale(1.03);
+    }
+
+    .card img {
+      width: 100%;
+      height: 160px;
+      object-fit: cover;
+    }
+
+    .card h3 {
+      padding: 1rem;
+      margin: 0;
+      font-size: 1.3rem;
+      color: #5a3e1b;
+    }
+
+    .list-section {
+      max-width: 1200px;
+      margin: 4rem auto;
+      padding: 0 2rem;
+    }
+
+    .list-section h2 {
+      text-align: center;
+      font-size: 2.2rem;
+      margin-bottom: 2rem;
+      color: #5a3e1b;
+    }
+
+    .state-card {
+      background-color: #fffdf8;
+      border: 1px solid #f0e4d7;
+      border-radius: 12px;
+      box-shadow: 0 3px 8px rgba(0,0,0,0.05);
+      padding: 1.2rem;
+      transition: transform 0.2s ease;
+    }
+
+    .state-card:hover {
+      transform: translateY(-5px);
+    }
+
+    .state-card h3 {
+      margin: 0 0 0.5rem 0;
+      font-size: 1.3rem;
+      color: #5a3e1b;
+    }
+
+    .state-card p {
+      margin: 0;
+      font-size: 1rem;
+      color: #3c2f2f;
+    }
+
+    .state-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1.5rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Traditional Trails</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="explore.html">Explore States</a>
+      <a href="festivals.html">Festivals</a>
+      <a href="famous-foods.html">Famous-Foods</a>
+      <a href="about.html">About</a>
+    </nav>
+  </header>
+
+  <h2 class="title">Discover Indian Festivals</h2>
+
+  <section class="gallery">
+    <div class="card">
+      <img src="c:\Users\dhruv\OneDrive\Pictures\Screenshots\Screenshot 2025-04-11 212908.png" alt="Diwali">
+      <h3>Diwali</h3>
+    </div>
+    <div class="card">
+      <img src="c:\Users\dhruv\OneDrive\Pictures\Screenshots\Screenshot 2025-04-11 213117.png" alt="Holi">
+      <h3>Holi</h3>
+    </div>
+    <div class="card">
+      <img src="c:\Users\dhruv\OneDrive\Desktop\in-pongal_0.jpg" alt="Pongal">
+      <h3>Pongal</h3>
+    </div>
+    <div class="card">
+      <img src="c:\Users\dhruv\OneDrive\Pictures\Screenshots\Screenshot 2025-04-11 213203.png" alt="Ganesh Chaturthi">
+      <h3>Ganesh Chaturthi</h3>
+    </div>
+    <div class="card">
+      <img src="c:\Users\dhruv\OneDrive\Desktop\Navratri.jpg" alt="Navratri">
+      <h3>Navratri</h3>
+    </div>
+    <div class="card">
+      <img src="c:\Users\dhruv\OneDrive\Pictures\Screenshots\Screenshot 2025-04-11 213333.png" alt="Eid">
+      <h3>Eid</h3>
+    </div>
+    <div class="card">
+      <img src="https://pragyata.com/wp-content/uploads/2020/10/Durga-Puja-Odisha.jpg" alt="Durga Puja">
+      <h3>Durga Puja</h3>
+    </div>
+    
+    <div class="card">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/4/48/Bihu-Dance-assam.jpg" alt="Bihu">
+      <h3>Bihu</h3>
+    </div>
+    
+    <div class="card">
+      <img src="C:\Users\dhruv\OneDrive\Pictures\Screenshots\Screenshot 2025-04-11 215231.png" alt="Onam">
+      <h3>Onam</h3>
+    </div>
+    
+    <div class="card">
+      <img src="https://english.cdn.zeenews.com/sites/default/files/2022/01/12/1004725-lohri.png" alt="Lohri">
+      <h3>Lohri</h3>
+    </div>
+    
+    </div>
+  </section>
+
+  <section class="list-section">
+    <h2>Festivals Across Indian States</h2>
+    <div class="state-grid">
+      <div class="state-card"><h3>Uttar Pradesh</h3><p>Diwali, Holi, Ram Navami, Janmashtami</p></div>
+      <div class="state-card"><h3>Gujarat</h3><p>Navratri, Uttarayan, Diwali</p></div>
+      <div class="state-card"><h3>Maharashtra</h3><p>Ganesh Chaturthi, Gudi Padwa, Diwali</p></div>
+      <div class="state-card"><h3>Tamil Nadu</h3><p>Pongal, Tamil New Year, Karthigai Deepam</p></div>
+      <div class="state-card"><h3>Kerala</h3><p>Onam, Vishu, Thrissur Pooram</p></div>
+      <div class="state-card"><h3>Punjab</h3><p>Baisakhi, Lohri, Guru Nanak Jayanti</p></div>
+      <div class="state-card"><h3>West Bengal</h3><p>Durga Puja, Kali Puja, Saraswati Puja</p></div>
+      <div class="state-card"><h3>Telangana & Andhra Pradesh</h3><p>Ugadi, Bonalu, Bathukamma</p></div>
+      <div class="state-card"><h3>Karnataka</h3><p>Ugadi, Dasara, Karaga</p></div>
+      <div class="state-card"><h3>Rajasthan</h3><p>Gangaur, Teej, Makar Sankranti</p></div>
+      <div class="state-card"><h3>Odisha</h3><p>Rath Yatra, Raja Parba, Durga Puja</p></div>
+      <div class="state-card"><h3>Bihar</h3><p>Chhath Puja, Makar Sankranti, Durga Puja</p></div>
+      <div class="state-card"><h3>Assam</h3><p>Bihu, Durga Puja</p></div>
+      <div class="state-card"><h3>Jammu & Kashmir</h3><p>Eid-ul-Fitr, Eid-ul-Adha, Navroz</p></div>
+      <div class="state-card"><h3>Goa</h3><p>Carnival, Sao Joao, Christmas</p></div>
+      <div class="state-card"><h3>Madhya Pradesh</h3><p>Diwali, Holi, Navratri</p></div>
+      <div class="state-card"><h3>Delhi</h3><p>Diwali, Holi, Eid, Christmas</p></div>
+      <div class="state-card"><h3>Manipur</h3><p>Yaoshang, Ningol Chakouba</p></div>
+      <div class="state-card"><h3>Nagaland</h3><p>Hornbill Festival, Christmas</p></div>
+      <div class="state-card"><h3>Meghalaya</h3><p>Shad Suk Mynsiem, Wangala</p></div>
+      <div class="state-card"><h3>Tripura</h3><p>Durga Puja, Kharchi Puja</p></div>
+    </div>
+  </section>
+</body>
+</html>

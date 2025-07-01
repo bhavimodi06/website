@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Famous Foods - Traditional Trails</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Playfair Display', serif;
+      background-color: #fffaf3;
+      color: #3c2f2f;
+    }
+
+    header {
+      background-color: #fff0d9;
+      padding: 1rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 1px solid #e0c9a6;
+    }
+
+    nav a {
+      margin: 0 1rem;
+      text-decoration: none;
+      color: #5a3e1b;
+      font-weight: 600;
+    }
+
+    h1 {
+      text-align: center;
+      margin: 2rem 0 1rem;
+      color: #5a3e1b;
+    }
+
+    .search-box {
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+
+    .search-box input {
+      padding: 0.5rem 1rem;
+      width: 300px;
+      font-size: 1rem;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 2rem;
+      padding: 2rem;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    .food-card {
+      background-color: white;
+      border-radius: 16px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      overflow: hidden;
+      transition: transform 0.3s;
+    }
+
+    .food-card:hover {
+      transform: scale(1.02);
+    }
+
+    .food-card img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+
+    .food-card .info {
+      padding: 1rem;
+    }
+
+    .food-card h3 {
+      margin: 0.5rem 0;
+      color: #5a3e1b;
+    }
+
+    .food-card p {
+      color: #7a5e3b;
+      font-size: 0.95rem;
+    }
+
+    .food-card a {
+      text-decoration: none;
+      color: inherit;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Traditional Trails</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="explore.html">Explore States</a>
+      <a href="festivals.html">Discover Festivals</a>
+      <a href="famous-foods.html">Famous Foods</a>
+      <a href="about.html">About Us</a>
+    </nav>
+  </header>
+
+  <h1>Famous Traditional Foods of India</h1>
+
+  <div class="search-box">
+    <input type="text" id="searchInput" placeholder="Search for food..." onkeyup="filterFoods()">
+  </div>
+
+  <div class="grid" id="foodGrid">
+    <div class="food-card">
+      <a href="gujarat.html">
+        <img src="https://www.gujaratexpert.com/blog/wp-content/uploads/2024/01/Gujarati-Thali.jpg" alt="Gujarati Thali">
+        <div class="info">
+          <h3>Gujarati Thali</h3>
+          <p>A delicious combination of dhokla, thepla, kadhi, rotli, rice, dal, and more. It's a balance of sweet, salty, and spicy flavors.</p>
+        </div>
+      </a>
+    </div>
+
+    <div class="food-card">
+      <a href="punjab.html">
+        <img src="https://static.toiimg.com/thumb/62376759.cms?imgsize=890054&width=800&height=800" alt="Amritsari Kulcha">
+        <div class="info">
+          <h3>Amritsari Kulcha</h3>
+          <p>A stuffed bread delicacy from Punjab, typically served with chole and a dollop of butter.</p>
+        </div>
+      </a>
+    </div>
+
+    <div class="food-card">
+      <a href="#">
+        <img src="https://st3.depositphotos.com/5653638/18152/i/450/depositphotos_181528754-stock-photo-masala-dosa-chutney-sambar-potato.jpg" alt="Masala Dosa">
+        <div class="info">
+          <h3>Masala Dosa</h3>
+          <p>A crispy South Indian dosa filled with spiced potato curry and served with coconut chutney and sambar.</p>
+        </div>
+      </a>
+    </div>
+
+    <div class="food-card">
+      <a href="#">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoIycguxFgTpIN3L00tYQhJ2WkypXj5w_QkQ&s" alt="Biryani">
+        <div class="info">
+          <h3>Hyderabadi Biryani</h3>
+          <p>Aromatic rice dish cooked with marinated meat, saffron, and a blend of rich spices.</p>
+        </div>
+      </a>
+    </div>
+
+    <div class="food-card">
+      <a href="#">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTorqQfvieS0ikzzKGuxNL9kkj52CTGVtA0CA&s" alt="Pani Puri">
+        <div class="info">
+          <h3>Pani Puri</h3>
+          <p>Popular street food made of crispy puris filled with spicy tangy water, potatoes, and chutneys.</p>
+        </div>
+      </a>
+    </div>
+
+    <div class="food-card">
+      <a href="#">
+        <img src="https://www.chitalebandhu.in/cdn/shop/files/Rasgulla-Image-_3_1024x1024.jpg?v=1697398551" alt="Rasgulla">
+        <div class="info">
+          <h3>Rasgulla</h3>
+          <p>Soft, spongy balls made of chhena soaked in light sugar syrup, a Bengali sweet delight.</p>
+        </div>
+      </a>
+    </div>
+  </div>
+
+  <script>
+    function filterFoods() {
+      const input = document.getElementById('searchInput');
+      const filter = input.value.toLowerCase();
+      const cards = document.querySelectorAll('.food-card');
+
+      cards.forEach(card => {
+        const text = card.textContent.toLowerCase();
+        card.style.display = text.includes(filter) ? '' : 'none';
+      });
+    }
+  </script>
+</body>
+</html>
